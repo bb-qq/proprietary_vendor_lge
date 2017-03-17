@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,11 +19,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/lge/g3-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/lge/g3-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lge/g3-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lge/g3-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lge/g3-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/lge/g3-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lge/g3-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lge/g3-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/g3-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/g3-common/proprietary/lib/libalmalib.so:system/lib/libalmalib.so \
@@ -137,12 +137,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/lge/g3-common/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lge/g3-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/g3-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/lge/g3-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lge/g3-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/lge/g3-common/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/g3-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -191,4 +191,3 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b08:system/vendor/firmware/wcnss.b08 \
     vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.b09:system/vendor/firmware/wcnss.b09 \
     vendor/lge/g3-common/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt
-    
